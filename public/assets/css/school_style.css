@@ -2,12 +2,7 @@
 
 }
 
-body{
-	margin: 0;
-	padding: 0;
-	background-image: url(kids.jpg);
-	background-size: 1280px 640px;
-}
+
 
 .loginBox{
 	position: absolute;
@@ -15,7 +10,7 @@ body{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 750px;
-	height: 300px;
+	height: 350px;
 	box-sizing: border-box;
 	background: rgba(0,0,0,.3);
 	border-radius: 20px;
@@ -67,7 +62,17 @@ h2{
 	font-size: 16px;
 	margin-top: 0;
 }
-
+.loginBox input[type="email"]{
+	border: none;
+	border-bottom: 2px solid white;
+	background: transparent;
+	margin-left: 15px
+	outline: none;
+	height: 20px;
+	color: white;
+	font-size: 16px;
+	margin-top: 0;
+}
 .loginBox input[type="password"]{
 	border: none;
 	border-bottom: 2px solid white;

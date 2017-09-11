@@ -18,16 +18,18 @@ body{
 	height: 300px;
 	box-sizing: border-box;
 	background: rgba(0,0,0,.3);
-
+	border-radius: 20px;
+	margin-right: 20px;
 }
 
 h2{
 	font-family: 'Indie Flower', cursive;
 	font-size: 45px;
 	color: #A00050;
-	text-shadow: 2px 2px 4px #E3DFDF;
+	text-shadow: 2px 2px 4px white;
 	text-align: center;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 .user{
@@ -63,6 +65,7 @@ h2{
 	height: 20px;
 	color: white;
 	font-size: 16px;
+	margin-top: 0;
 }
 
 .loginBox input[type="password"]{
@@ -88,39 +91,20 @@ h2{
 	font-weight: bold;
 	cursor: pointer;
 	border-radius: 20px;
-	margin-right: 20px;
-
+	margin-right: 10px;
 }
 
 .loginBox input[type="submit"]:hover{
-	background: #E56709;
+	background: #E3DFDF;
+	color: #A00050;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .loginBox a{
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
 	font-family: 'Indie Flower', cursive;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

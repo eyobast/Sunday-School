@@ -47,7 +47,8 @@ models.sequelize.sync().then(function() {
     console.log(err, "Something went wrong with the Database Update!")
  
 });
-
+var apiRoutes=require("./routes/api-routes.js")(app);
+var htmlRoutes=require("./routes/html-routes.js")(app);
  
 app.listen(3000, function(err) {
  

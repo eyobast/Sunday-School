@@ -1,6 +1,6 @@
 
 // Make a get request to our api route that will return every student
-$.get("/api/all", function(data) {
+$.get("/api/students/all", function(data) {
     console.log(data)
   // For each student that our server sends us back
   for (var i = 0; i < data.length; i++) {
